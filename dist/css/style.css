@@ -958,9 +958,9 @@ body::after {
 
 .header._header-show {
   top: 0;
-  -webkit-transition: top 0.3s ease 0s;
-  -o-transition: top 0.3s ease 0s;
-  transition: top 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .header__container {
@@ -3345,15 +3345,15 @@ body::after {
   background-color: #000000;
 }
 
-@supports (row-gap: clamp( 1.25rem , -1.5176777822rem  +  4.4640864247vw , 2.5rem )) {
+@supports (row-gap: clamp( 1.5625rem , -0.5132583367rem  +  3.3480648185vw , 2.5rem )) {
   .form-connect-mainpage {
-    row-gap: clamp( 1.25rem , -1.5176777822rem  +  4.4640864247vw , 2.5rem );
+    row-gap: clamp( 1.5625rem , -0.5132583367rem  +  3.3480648185vw , 2.5rem );
   }
 }
 
-@supports not (row-gap: clamp( 1.25rem , -1.5176777822rem  +  4.4640864247vw , 2.5rem )) {
+@supports not (row-gap: clamp( 1.5625rem , -0.5132583367rem  +  3.3480648185vw , 2.5rem )) {
   .form-connect-mainpage {
-    row-gap: calc(1.25rem + 1.25 * (100vw - 61.99875rem) / 28.00125);
+    row-gap: calc(1.5625rem + 0.9375 * (100vw - 61.99875rem) / 28.00125);
   }
 }
 

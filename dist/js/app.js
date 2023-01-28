@@ -960,10 +960,11 @@
                 let error = 0;
                 if ("email" === formRequiredItem.dataset.required) {
                     formRequiredItem.value = formRequiredItem.value.replace(" ", "");
+                    formRequiredItem.dataset.error = "please enter a valid email address";
+                    if (!formRequiredItem.value.length) formRequiredItem.dataset.error = "this field is required";
                     if (this.emailTest(formRequiredItem)) {
                         this.addError(formRequiredItem);
                         error++;
-                        formRequiredItem.dataset.error = "please enter a valid email address";
                     } else this.removeError(formRequiredItem);
                 } else if ("checkbox" === formRequiredItem.type && !formRequiredItem.checked) {
                     this.addError(formRequiredItem);
@@ -5102,7 +5103,7 @@
                 } else if (activeElement) activeElement.classList.remove("_active");
             }
         }));
-        window["FLS"] = true;
+        window["FLS"] = false;
         isWebp();
         menuInit();
         spoilers();

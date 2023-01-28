@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230106214110">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230128152113">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -61,10 +61,10 @@
 				<section class="mainpage__hero hero-mainpage">
 					<div class="hero-mainpage__container">
 						<div class="hero-mainpage__row">
-							<h1 class="hero-mainpage__title h1">
+							<h1 class="hero-mainpage__title h1 _vertical-anim">
 								The Biggest Thing We Build is Trust.
 							</h1>
-							<p class="hero-mainpage__text text text_white">
+							<p class="hero-mainpage__text text text_white _right-anim">
 								We don't just work with concrete and steel. We work with
 								people. <a href="#">We are Approachable,</a> with even our
 								highest leadership levels easily accessible.
@@ -556,16 +556,16 @@
 								<h2 class="form-connect-mainpage__title h2">Contact Us</h2>
 								<div class="form-connect-mainpage__fields">
 									<div class="form-connect-mainpage__input-wrap">
-										<input data-required data-validate autocomplete="off" type="text" name="form[]" data-value="" placeholder="Complete Name" class="input" />
+										<input data-required data-validate autocomplete="off" type="text" name="form[]" data-value="" data-error="this field is required" placeholder="Complete Name" class="input" />
 									</div>
 									<div class="form-connect-mainpage__input-wrap">
 										<input data-required="email" data-validate autocomplete="off" type="text" name="form[]" data-error data-value="" placeholder="Email Address" class="input" />
 									</div>
 									<div class="form-connect-mainpage__input-wrap">
-										<input data-required data-validate autocomplete="off" type="text" name="form[]" data-value="" placeholder="Subject" class="input" />
+										<input data-required data-validate autocomplete="off" type="text" name="form[]" data-value="" data-error="this field is required" placeholder="Subject" class="input" />
 									</div>
 									<div class="form-connect-mainpage__input-wrap">
-										<textarea data-required data-validate name="form[]" placeholder="Question / Message?" class="input"></textarea>
+										<textarea data-required data-validate name="form[]" data-error="this field is required" placeholder="Question / Message?" class="input"></textarea>
 									</div>
 								</div>
 								<button type="submit" class="form-connect-mainpage__btn btn">
@@ -753,7 +753,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20230106214110"></script>
+	<script src="js/app.min.js?_v=20230128152113"></script>
 </body>
 
 </html>

@@ -3357,27 +3357,27 @@ body::after {
   }
 }
 
-@supports (padding-top: clamp( 1.875rem , -0.8926777822rem  +  4.4640864247vw , 3.125rem )) {
+@supports (padding-top: clamp( 2.1875rem , 0.1117416633rem  +  3.3480648185vw , 3.125rem )) {
   .form-connect-mainpage {
-    padding-top: clamp( 1.875rem , -0.8926777822rem  +  4.4640864247vw , 3.125rem );
+    padding-top: clamp( 2.1875rem , 0.1117416633rem  +  3.3480648185vw , 3.125rem );
   }
 }
 
-@supports not (padding-top: clamp( 1.875rem , -0.8926777822rem  +  4.4640864247vw , 3.125rem )) {
+@supports not (padding-top: clamp( 2.1875rem , 0.1117416633rem  +  3.3480648185vw , 3.125rem )) {
   .form-connect-mainpage {
-    padding-top: calc(1.875rem + 1.25 * (100vw - 61.99875rem) / 28.00125);
+    padding-top: calc(2.1875rem + 0.9375 * (100vw - 61.99875rem) / 28.00125);
   }
 }
 
-@supports (padding-bottom: clamp( 1.875rem , -0.8926777822rem  +  4.4640864247vw , 3.125rem )) {
+@supports (padding-bottom: clamp( 2.1875rem , 0.1117416633rem  +  3.3480648185vw , 3.125rem )) {
   .form-connect-mainpage {
-    padding-bottom: clamp( 1.875rem , -0.8926777822rem  +  4.4640864247vw , 3.125rem );
+    padding-bottom: clamp( 2.1875rem , 0.1117416633rem  +  3.3480648185vw , 3.125rem );
   }
 }
 
-@supports not (padding-bottom: clamp( 1.875rem , -0.8926777822rem  +  4.4640864247vw , 3.125rem )) {
+@supports not (padding-bottom: clamp( 2.1875rem , 0.1117416633rem  +  3.3480648185vw , 3.125rem )) {
   .form-connect-mainpage {
-    padding-bottom: calc(1.875rem + 1.25 * (100vw - 61.99875rem) / 28.00125);
+    padding-bottom: calc(2.1875rem + 0.9375 * (100vw - 61.99875rem) / 28.00125);
   }
 }
 
@@ -3807,6 +3807,18 @@ body::after {
         -ms-flex: 0 1 400px;
             flex: 0 1 400px;
   }
+
+@supports (padding-bottom: clamp( 3.75rem , 1.2501085051rem  +  5.2082429124vw , 7.5rem )) {
+    .mainpage__connect {
+      padding-bottom: clamp( 3.75rem , 1.2501085051rem  +  5.2082429124vw , 7.5rem );
+    }
+}
+
+@supports not (padding-bottom: clamp( 3.75rem , 1.2501085051rem  +  5.2082429124vw , 7.5rem )) {
+    .mainpage__connect {
+      padding-bottom: calc(3.75rem + 3.75 * (100vw - 47.99875rem) / 72.00125);
+    }
+}
 
   .projects-mainpage__head {
     -webkit-box-orient: horizontal;

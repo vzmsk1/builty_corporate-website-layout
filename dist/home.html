@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230203131040">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230205163945">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -61,10 +61,10 @@
 				<section class="mainpage__hero hero-mainpage">
 					<div class="hero-mainpage__container">
 						<div class="hero-mainpage__row">
-							<h1 class="hero-mainpage__title h1 _vertical-anim">
+							<h1 class="hero-mainpage__title h1">
 								The Biggest Thing We Build is Trust.
 							</h1>
-							<p class="hero-mainpage__text text text_white _right-anim">
+							<p class="hero-mainpage__text text text_white">
 								We don't just work with concrete and steel. We work with
 								people. <a href="#">We are Approachable,</a> with even our
 								highest leadership levels easily accessible.
@@ -86,7 +86,7 @@
 					<div class="services-mainpage__container">
 						<div class="services-mainpage__head head">
 							<div class="head__icon">
-								<img src="img/icons/01.svg" alt="" />
+								<img src="img/icons/01.svg" alt="" aria-hidden="true" />
 							</div>
 							<h2 class="head__title h2">
 								Construction Company, has a proud tradition of service as a
@@ -148,7 +148,7 @@
 					<div class="about-mainpage__container">
 						<div class="about-mainpage__head head">
 							<div class="head__icon">
-								<img src="img/icons/02.svg" alt="" />
+								<img src="img/icons/02.svg" alt="" aria-hidden="true" />
 							</div>
 							<p class="head__subheading">FOCUSED AND FUTURE READY</p>
 							<h2 class="head__title h2">
@@ -205,7 +205,7 @@
 					<div class="products-mainpage__container">
 						<div class="products-mainpage__head head">
 							<div class="head__icon">
-								<img src="img/icons/02.svg" alt="" />
+								<img src="img/icons/02.svg" alt="" aria-hidden="true" />
 							</div>
 							<p class="head__subheading">SELL YOUR PRODUCTS</p>
 							<h2 class="head__title h2">Industry Products</h2>
@@ -288,7 +288,7 @@
 						<div class="projects-mainpage__head head">
 							<div class="head__content">
 								<div class="head__icon">
-									<img src="img/icons/02.svg" alt="" />
+									<img src="img/icons/02.svg" alt="" aria-hidden="true" />
 								</div>
 								<p class="head__subheading">SOLUTIONS FOR EACH PROJECT</p>
 								<h2 class="head__title h2">Project Completed</h2>
@@ -360,7 +360,7 @@
 					<div class="plans-mainpage__container">
 						<div class="plans-mainpage__head head">
 							<div class="head__icon">
-								<img src="img/icons/02.svg" alt="" />
+								<img src="img/icons/02.svg" alt="" aria-hidden="true" />
 							</div>
 							<p class="head__subheading">SELECT A PLAN THAT SUITS</p>
 							<h2 class="head__title h2">Flexible Pricing Plans</h2>
@@ -411,15 +411,13 @@
 						<div class="locality-mainpage__row locality-mainpage__row_head">
 							<div class="locality-mainpage__head head">
 								<p class="head__subheading">OUR LOCATIONS</p>
-								<h2 class="head__title h2">
-									Where we work</a>
-								</h2>
+								<h2 class="head__title h2">Where we work</h2>
 							</div>
 							<p class="locality-mainpage__text text text_white">
 								No matter where or what you want to build, we mobilize the
 								right resources and experts to drive value and realize your
-								project goals. From coast to coast in communities across
-								the country, if you're ready, we're ready.
+								project goals. From coast to coast in communities across the
+								country, if you're ready, we're ready.
 							</p>
 						</div>
 						<div class="locality-mainpage__row locality-mainpage__row_content">
@@ -429,32 +427,44 @@
 										<div id="region_01" class="map-locality-mainpage__item item-map-locality-mainpage">
 											<button type="button" class="item-map-locality-mainpage__dot"></button>
 											<a href="#" class="item-map-locality-mainpage__body">
-												<div class="item-map-locality-mainpage__image-ibg"><picture><source data-srcset="img/locality-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/locality-mainpage/01.jpg" alt=""></picture></div>
-												<p class="item-map-locality-mainpage__text">9915 56th Ave. NW
-													Edmonton, AB T6E 5L7</p>
+												<div class="item-map-locality-mainpage__image-ibg">
+													<picture><source data-srcset="img/locality-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/locality-mainpage/01.jpg" alt="" /></picture>
+												</div>
+												<p class="item-map-locality-mainpage__text">
+													9915 56th Ave. NW Edmonton, AB T6E 5L7
+												</p>
 											</a>
 										</div>
 										<div id="region_02" class="map-locality-mainpage__item item-map-locality-mainpage">
 											<button type="button" class="item-map-locality-mainpage__dot"></button>
 											<a href="#" class="item-map-locality-mainpage__body">
-												<div class="item-map-locality-mainpage__image-ibg"><picture><source data-srcset="img/locality-mainpage/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/locality-mainpage/02.jpg" alt=""></picture></div>
-												<p class="item-map-locality-mainpage__text">9915 56th Ave. NW
-													Edmonton, AB T6E 5L7</p>
+												<div class="item-map-locality-mainpage__image-ibg">
+													<picture><source data-srcset="img/locality-mainpage/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/locality-mainpage/02.jpg" alt="" /></picture>
+												</div>
+												<p class="item-map-locality-mainpage__text">
+													9915 56th Ave. NW Edmonton, AB T6E 5L7
+												</p>
 											</a>
 										</div>
 									</div>
-									<div class="map-locality-mainpage__image"><picture><source data-srcset="img/locality-mainpage/map.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/locality-mainpage/map.png" alt=""></picture></div>
+									<div class="map-locality-mainpage__image">
+										<picture><source data-srcset="img/locality-mainpage/map.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/locality-mainpage/map.png" alt="" /></picture>
+									</div>
 								</div>
 							</div>
 							<div class="locality-mainpage__facts facts-locality-mainpage">
 								<div class="facts-locality-mainpage__row">
 									<div class="facts-locality-mainpage__item item-facts-locality-mainpage">
 										<p class="item-facts-locality-mainpage__number">100%</p>
-										<p class="item-facts-locality-mainpage__text">Employee Owned</p>
+										<p class="item-facts-locality-mainpage__text">
+											Employee Owned
+										</p>
 									</div>
 									<div class="facts-locality-mainpage__item item-facts-locality-mainpage">
 										<p class="item-facts-locality-mainpage__number">700+</p>
-										<p class="item-facts-locality-mainpage__text">Active Projects</p>
+										<p class="item-facts-locality-mainpage__text">
+											Active Projects
+										</p>
 									</div>
 								</div>
 							</div>
@@ -465,7 +475,7 @@
 					<div class="connect-mainpage__container">
 						<div class="connect-mainpage__head head">
 							<div class="head__icon">
-								<img src="img/icons/02.svg" alt="" />
+								<img src="img/icons/02.svg" alt="" aria-hidden="true" />
 							</div>
 							<p class="head__subheading">GET IN TOUCH</p>
 							<h2 class="head__title h2">
@@ -580,7 +590,7 @@
 						<div class="articles-mainpage__info">
 							<div class="articles-mainpage__head head">
 								<div class="head__icon">
-									<img src="img/icons/02.svg" alt="" />
+									<img src="img/icons/02.svg" alt="" aria-hidden="true" />
 								</div>
 								<p class="head__subheading">NEWS & ARTICLES</p>
 								<h2 class="head__title h2">Latest News</h2>
@@ -589,7 +599,7 @@
 								Our people are dedicated to finding solutions to every
 								challenge. That spirit makes for some great stories.
 							</p>
-							<a href="#" class="articles-mainpage__btn btn btn_white"><span class="btn__text">View All News</p>
+							<a href="#" class="articles-mainpage__btn btn btn_white"><span class="btn__text">View All News</span>
 							</a>
 						</div>
 						<div class="articles-mainpage__grid">
@@ -602,9 +612,9 @@
 										<p class="item-articles-mainpage__date">
 											January 9, 2022
 										</p>
-										<h4 class="item-articles-mainpage__title h4">
+										<h3 class="item-articles-mainpage__title">
 											The Scrim Project: San Francisco Artist Feature
-										</h4>
+										</h3>
 										<p class="item-articles-mainpage__text">
 											Through The Scrim Project, is turning over the wrap on
 											our construction fence to,…
@@ -619,9 +629,9 @@
 										<p class="item-articles-mainpage__date">
 											January 9, 2022
 										</p>
-										<h4 class="item-articles-mainpage__title h4">
+										<h3 class="item-articles-mainpage__title">
 											The Scrim Project: San Francisco Artist Feature
-										</h4>
+										</h3>
 									</div>
 								</a>
 							</div>
@@ -634,9 +644,9 @@
 										<p class="item-articles-mainpage__date">
 											January 9, 2022
 										</p>
-										<h4 class="item-articles-mainpage__title h4">
+										<h3 class="item-articles-mainpage__title">
 											The Scrim Project: San Francisco Artist Feature
-										</h4>
+										</h3>
 									</div>
 								</a>
 								<a href="#" class="articles-mainpage__item item-articles-mainpage">
@@ -647,9 +657,9 @@
 										<p class="item-articles-mainpage__date">
 											January 9, 2022
 										</p>
-										<h4 class="item-articles-mainpage__title h4">
+										<h3 class="item-articles-mainpage__title">
 											The Scrim Project: San Francisco Artist Feature
-										</h4>
+										</h3>
 										<p class="item-articles-mainpage__text">
 											Through The Scrim Project, is turning over the wrap on
 											our construction fence to,…
@@ -753,7 +763,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20230203131040"></script>
+	<script src="js/app.min.js?_v=20230205163945"></script>
 </body>
 
 </html>

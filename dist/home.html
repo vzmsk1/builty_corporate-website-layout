@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230205163945">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230714132934">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 	<div class="wrapper">
 		<header data-scroll="100" data-scroll-show class="header">
 			<div class="header__container">
-				<a href="#" class="header__logo"><img src="img/logo.svg" alt="" /></a>
+				<a href="#" class="header__logo"><img data-src="img/logo.svg" alt="" aria-hidden="true" class="header__logo-img" /></a>
 				<div class="header__row">
 					<div data-da=".header__container,767.98,1" class="header__menu menu">
 						<button type="button" class="menu__icon icon-menu">
@@ -56,626 +56,618 @@
 			</div>
 		</header>
 
-		<main class="main">
-			<div class="mainpage">
-				<section class="mainpage__hero hero-mainpage">
-					<div class="hero-mainpage__container">
-						<div class="hero-mainpage__row">
-							<h1 class="hero-mainpage__title h1">
-								The Biggest Thing We Build is Trust.
-							</h1>
-							<p class="hero-mainpage__text text text_white">
-								We don't just work with concrete and steel. We work with
-								people. <a href="#">We are Approachable,</a> with even our
-								highest leadership levels easily accessible.
-								<a href="#">We are Problem Solvers</a> who point out solutions
-							</p>
-						</div>
-						<div class="hero-mainpage__image-ibg">
-							<picture><source srcset="img/content-images/01.webp" type="image/webp"><img src="img/content-images/01.jpg" alt="" /></picture>
-						</div>
-						<div class="hero-mainpage__bottom">
-							<p class="hero-mainpage__text text text_white">
-								We have over <a href="#">1,200 employees</a> who we view as
-								our most valuable asset.
-							</p>
-						</div>
+		<main class="main mainpage">
+			<section class="mainpage__hero hero-mainpage">
+				<div class="hero-mainpage__container">
+					<div class="hero-mainpage__row">
+						<h1 class="hero-mainpage__title h1">
+							The Biggest Thing We Build is Trust.
+						</h1>
+						<p class="hero-mainpage__text text text_white">
+							We don't just work with concrete and steel. We work with people.
+							<a href="#" class="hero-mainpage__text-link">We are Approachable,</a>
+							with even our highest leadership levels easily accessible.
+							<a href="#" class="hero-mainpage__text-link">We are Problem Solvers</a>
+							who point out solutions
+						</p>
 					</div>
-				</section>
-				<section class="mainpage__services services-mainpage">
-					<div class="services-mainpage__container">
-						<div class="services-mainpage__head head">
-							<div class="head__icon">
-								<img src="img/icons/01.svg" alt="" aria-hidden="true" />
-							</div>
-							<h2 class="head__title h2">
-								Construction Company, has a proud tradition of service as a
-								General Contractor <a href="#">since 1974</a>
-							</h2>
-							<p class="head__text text">
-								We successfully cope with tasks of varying complexity, provide
-								long-term guarantees and regularly master new technologies.
-								Our portfolio includes
-								<a href="#">dozens of successfully</a> completed projects.
-							</p>
-						</div>
-						<div class="services-mainpage__row">
-							<a href="#" class="services-mainpage__item item-services-mainpage">
-								<div class="item-services-mainpage__content">
-									<h3 class="item-services-mainpage__title h3">
-										Transportation
-									</h3>
-									<p class="item-services-mainpage__text text text_white">
-										Many have raised the bar for industrial construction, not
-										only in terms of cost, scheduling, safety and efficiency.
-									</p>
-									<span class="item-services-mainpage__link-circle link-circle _icon-arrow"></span>
-								</div>
-								<div class="item-services-mainpage__image-ibg">
-									<picture><source srcset="img/services-mainpage/01.webp" type="image/webp"><img src="img/services-mainpage/01.jpg" alt="" /></picture>
-								</div>
-							</a>
-							<a href="#" class="services-mainpage__item item-services-mainpage">
-								<div class="item-services-mainpage__content">
-									<h3 class="item-services-mainpage__title h3">Industrial</h3>
-									<p class="item-services-mainpage__text text text_white">
-										Many have raised the bar for industrial construction, not
-										only in terms of cost, scheduling, safety and efficiency.
-									</p>
-									<span class="item-services-mainpage__link-circle link-circle _icon-arrow"></span>
-								</div>
-								<div class="item-services-mainpage__image-ibg">
-									<picture><source srcset="img/services-mainpage/02.webp" type="image/webp"><img src="img/services-mainpage/02.jpg" alt="" /></picture>
-								</div>
-							</a>
-							<a href="#" class="services-mainpage__item item-services-mainpage">
-								<div class="item-services-mainpage__content">
-									<h3 class="item-services-mainpage__title h3">Building</h3>
-									<p class="item-services-mainpage__text text text_white">
-										Many have raised the bar for industrial construction, not
-										only in terms of cost, scheduling, safety and efficiency.
-									</p>
-									<span class="item-services-mainpage__link-circle link-circle _icon-arrow"></span>
-								</div>
-								<div class="item-services-mainpage__image-ibg">
-									<picture><source srcset="img/services-mainpage/03.webp" type="image/webp"><img src="img/services-mainpage/03.jpg" alt="" /></picture>
-								</div>
-							</a>
-						</div>
+					<div class="hero-mainpage__image-ibg">
+						<picture><source srcset="img/content-images/01.webp" type="image/webp"><img src="img/content-images/01.jpg" alt="" aria-hidden="true" /></picture>
 					</div>
-				</section>
-				<section class="mainpage__about about-mainpage">
-					<div class="about-mainpage__container">
-						<div class="about-mainpage__head head">
-							<div class="head__icon">
-								<img src="img/icons/02.svg" alt="" aria-hidden="true" />
-							</div>
-							<p class="head__subheading">FOCUSED AND FUTURE READY</p>
-							<h2 class="head__title h2">
-								Right People to Deliver Unique Construction Solutions
-							</h2>
+					<div class="hero-mainpage__bottom">
+						<p class="hero-mainpage__text text text_white">
+							We have over
+							<a href="#" class="hero-mainpage__text-link">1,200 employees</a>
+							who we view as our most valuable asset.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="mainpage__services services-mainpage">
+				<div class="services-mainpage__container">
+					<div class="services-mainpage__head head">
+						<div class="head__icon">
+							<img data-src="img/icons/01.svg" alt="" aria-hidden="true" />
 						</div>
-						<div class="about-mainpage__body">
-							<div class="about-mainpage__content content-about-mainpage">
-								<div class="content-about-mainpage__item">
-									<span class="content-about-mainpage__heading">
-										Our Goal is to Be Better
-									</span>
-									<p class="content-about-mainpage__text text">
-										We successfully cope with tasks of varying complexity,
-										provide long-term guarantees and regularly master new
-										technologies. Our portfolio includes
-										<a href="#">dozens of successfully</a> completed projects
-										of houses of different storeys, with high–quality finishes
-										and good repairs. Building houses is our vocation!
-									</p>
-								</div>
-								<div class="content-about-mainpage__item">
-									<span class="content-about-mainpage__heading">
-										Business Bottom Line
-									</span>
-									<ul class="content-about-mainpage__list">
-										<li class="content-about-mainpage__list-item text _icon-ellipse">
-											<span>Geographical diversity, project complexity</span>
-										</li>
-										<li class="content-about-mainpage__list-item text _icon-ellipse">
-											<span>Whether building on land or over water</span>
-										</li>
-										<li class="content-about-mainpage__list-item text _icon-ellipse">
-											<span>Construction companies respond to the unique
-												needs</span>
-										</li>
-									</ul>
-								</div>
+						<h2 class="head__title h2">
+							Construction Company, has a proud tradition of service as a
+							General Contractor <a href="#">since 1974</a>
+						</h2>
+						<p class="head__text text">
+							We successfully cope with tasks of varying complexity, provide
+							long-term guarantees and regularly master new technologies. Our
+							portfolio includes
+							<a href="#">dozens of successfully</a> completed projects.
+						</p>
+					</div>
+					<div class="services-mainpage__row">
+						<a href="#" class="services-mainpage__item item-services-mainpage">
+							<div class="item-services-mainpage__content">
+								<h3 class="item-services-mainpage__title h3">
+									Transportation
+								</h3>
+								<p class="item-services-mainpage__text text text_white">
+									Many have raised the bar for industrial construction, not
+									only in terms of cost, scheduling, safety and efficiency.
+								</p>
+								<span class="item-services-mainpage__link-circle link-circle _icon-arrow"></span>
 							</div>
-							<div class="about-mainpage__image image-about-mainpage">
-								<div class="image-about-mainpage__wrap">
-									<div class="image-about-mainpage__circle">
-										<div class="image-about-mainpage__icon">
-											<img src="img/icons/01.svg" alt="" />
-										</div>
+							<div class="item-services-mainpage__image-ibg">
+								<picture><source srcset="img/services-mainpage/01.webp" type="image/webp"><img src="img/services-mainpage/01.jpg" alt="" aria-hidden="true" /></picture>
+							</div>
+						</a>
+						<a href="#" class="services-mainpage__item item-services-mainpage">
+							<div class="item-services-mainpage__content">
+								<h3 class="item-services-mainpage__title h3">Industrial</h3>
+								<p class="item-services-mainpage__text text text_white">
+									Many have raised the bar for industrial construction, not
+									only in terms of cost, scheduling, safety and efficiency.
+								</p>
+								<span class="item-services-mainpage__link-circle link-circle _icon-arrow"></span>
+							</div>
+							<div class="item-services-mainpage__image-ibg">
+								<picture><source srcset="img/services-mainpage/02.webp" type="image/webp"><img src="img/services-mainpage/02.jpg" alt="" aria-hidden="true" /></picture>
+							</div>
+						</a>
+						<a href="#" class="services-mainpage__item item-services-mainpage">
+							<div class="item-services-mainpage__content">
+								<h3 class="item-services-mainpage__title h3">Building</h3>
+								<p class="item-services-mainpage__text text text_white">
+									Many have raised the bar for industrial construction, not
+									only in terms of cost, scheduling, safety and efficiency.
+								</p>
+								<span class="item-services-mainpage__link-circle link-circle _icon-arrow"></span>
+							</div>
+							<div class="item-services-mainpage__image-ibg">
+								<picture><source srcset="img/services-mainpage/03.webp" type="image/webp"><img src="img/services-mainpage/03.jpg" alt="" aria-hidden="true" /></picture>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="mainpage__about about-mainpage">
+				<div class="about-mainpage__container">
+					<div class="about-mainpage__head head">
+						<div class="head__icon">
+							<img data-src="img/icons/02.svg" alt="" aria-hidden="true" />
+						</div>
+						<span class="head__subheading">FOCUSED AND FUTURE READY</span>
+						<h2 class="head__title h2">
+							Right People to Deliver Unique Construction Solutions
+						</h2>
+					</div>
+					<div class="about-mainpage__body">
+						<div class="about-mainpage__content content-about-mainpage">
+							<div class="content-about-mainpage__item">
+								<h3 class="content-about-mainpage__heading">
+									Our Goal is to Be Better
+								</h3>
+								<p class="content-about-mainpage__text text">
+									We successfully cope with tasks of varying complexity,
+									provide long-term guarantees and regularly master new
+									technologies. Our portfolio includes
+									<a href="#">dozens of successfully</a> completed projects of
+									houses of different storeys, with high–quality finishes and
+									good repairs. Building houses is our vocation!
+								</p>
+							</div>
+							<div class="content-about-mainpage__item">
+								<span class="content-about-mainpage__heading">
+									Business Bottom Line
+								</span>
+								<ul class="content-about-mainpage__list">
+									<li class="content-about-mainpage__list-item text _icon-ellipse">
+										<span>Geographical diversity, project complexity</span>
+									</li>
+									<li class="content-about-mainpage__list-item text _icon-ellipse">
+										<span>Whether building on land or over water</span>
+									</li>
+									<li class="content-about-mainpage__list-item text _icon-ellipse">
+										<span>Construction companies respond to the unique
+											needs</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="about-mainpage__image image-about-mainpage">
+							<div class="image-about-mainpage__wrap">
+								<div class="image-about-mainpage__circle">
+									<div class="image-about-mainpage__icon">
+										<img data-src="img/icons/01.svg" alt="" aria-hidden="true" />
 									</div>
-									<picture><source srcset="img/content-images/02.webp" type="image/webp"><img class="image-about-mainpage__img" src="img/content-images/02.jpg" alt="" /></picture>
 								</div>
+								<picture><source srcset="img/content-images/02.webp" type="image/webp"><img class="image-about-mainpage__img" src="img/content-images/02.jpg" alt="" aria-hidden="true" /></picture>
 							</div>
 						</div>
 					</div>
-				</section>
-				<section class="mainpage__products products-mainpage">
-					<div class="products-mainpage__container">
-						<div class="products-mainpage__head head">
+				</div>
+			</section>
+			<section class="mainpage__products products-mainpage">
+				<div class="products-mainpage__container">
+					<div class="products-mainpage__head head">
+						<div class="head__icon">
+							<img data-src="img/icons/02.svg" alt="" aria-hidden="true" />
+						</div>
+						<span class="head__subheading">SELL YOUR PRODUCTS</span>
+						<h2 class="head__title h2">Industry Products</h2>
+					</div>
+					<div class="products-mainpage__carousel">
+						<div class="products-mainpage__slider swiper">
+							<div class="products-mainpage__wrapper swiper-wrapper">
+								<a href="#" class="products-mainpage__slide slide-products-mainpage swiper-slide">
+									<div class="slide-products-mainpage__body">
+										<div class="slide-products-mainpage__image-ibg">
+											<picture><source srcset="img/products-mainpage/01.webp" type="image/webp"><img src="img/products-mainpage/01.png" alt="Fosroc Galvafroid – 400ml" /></picture>
+										</div>
+										<div class="slide-products-mainpage__rating _icon-star">
+											5.0
+										</div>
+										<h3 class="slide-products-mainpage__title">
+											Fosroc Galvafroid – 400ml
+										</h3>
+										<span class="slide-products-mainpage__price">
+											$18.60 - $58.50
+										</span>
+									</div>
+								</a>
+								<a href="#" class="products-mainpage__slide slide-products-mainpage swiper-slide">
+									<div class="slide-products-mainpage__body">
+										<div class="slide-products-mainpage__image-ibg">
+											<picture><source srcset="img/products-mainpage/02.webp" type="image/webp"><img src="img/products-mainpage/02.png" alt="Safety Helmet – Yellow" /></picture>
+										</div>
+										<div class="slide-products-mainpage__rating _icon-star">
+											5.0
+										</div>
+										<h3 class="slide-products-mainpage__title">
+											Safety Helmet - Yellow
+										</h3>
+										<span class="slide-products-mainpage__price">
+											$18.60 - $58.50
+										</span>
+									</div>
+								</a>
+								<a href="#" class="products-mainpage__slide slide-products-mainpage swiper-slide">
+									<div class="slide-products-mainpage__body">
+										<div class="slide-products-mainpage__image-ibg">
+											<picture><source srcset="img/products-mainpage/03.webp" type="image/webp"><img src="img/products-mainpage/03.png" alt="Leather Gloves" /></picture>
+										</div>
+										<div class="slide-products-mainpage__rating _icon-star">
+											4.5
+										</div>
+										<h3 class="slide-products-mainpage__title">
+											Leather Gloves
+										</h3>
+										<span class="slide-products-mainpage__price">
+											$18.60 - $58.50
+										</span>
+									</div>
+								</a>
+								<a href="#" class="products-mainpage__slide slide-products-mainpage swiper-slide">
+									<div class="slide-products-mainpage__body">
+										<div class="slide-products-mainpage__image-ibg">
+											<picture><source srcset="img/products-mainpage/02.webp" type="image/webp"><img src="img/products-mainpage/02.png" alt="Safety Helmet – Yellow" /></picture>
+										</div>
+										<div class="slide-products-mainpage__rating _icon-star">
+											5.0
+										</div>
+										<h3 class="slide-products-mainpage__title">
+											Safety Helmet - Yellow
+										</h3>
+										<span class="slide-products-mainpage__price">
+											$18.60 - $58.50
+										</span>
+									</div>
+								</a>
+							</div>
+							<div class="products-mainpage__pagination swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="mainpage__projects projects-mainpage">
+				<div class="projects-mainpage__container">
+					<div class="projects-mainpage__head head">
+						<div class="head__content">
 							<div class="head__icon">
-								<img src="img/icons/02.svg" alt="" aria-hidden="true" />
+								<img data-src="img/icons/02.svg" alt="" aria-hidden="true" />
 							</div>
-							<p class="head__subheading">SELL YOUR PRODUCTS</p>
-							<h2 class="head__title h2">Industry Products</h2>
+							<span class="head__subheading">SOLUTIONS FOR EACH PROJECT</span>
+							<h2 class="head__title h2">Project Completed</h2>
 						</div>
-						<div class="products-mainpage__carousel">
-							<div class="products-mainpage__slider swiper">
-								<div class="products-mainpage__wrapper swiper-wrapper">
-									<a href="#" class="products-mainpage__slide slide-products-mainpage swiper-slide">
-										<div class="slide-products-mainpage__body">
-											<div class="slide-products-mainpage__image-ibg">
-												<picture><source srcset="img/products-mainpage/01.webp" type="image/webp"><img src="img/products-mainpage/01.png" alt="Fosroc Galvafroid – 400ml" /></picture>
-											</div>
-											<div class="slide-products-mainpage__rating _icon-star">
-												5.0
-											</div>
-											<div class="slide-products-mainpage__title">
-												Fosroc Galvafroid – 400ml
-											</div>
-											<div class="slide-products-mainpage__price">
-												$18.60 - $58.50
-											</div>
-										</div>
-									</a>
-									<a href="#" class="products-mainpage__slide slide-products-mainpage swiper-slide">
-										<div class="slide-products-mainpage__body">
-											<div class="slide-products-mainpage__image-ibg">
-												<picture><source srcset="img/products-mainpage/02.webp" type="image/webp"><img src="img/products-mainpage/02.png" alt="Safety Helmet – Yellow" /></picture>
-											</div>
-											<div class="slide-products-mainpage__rating _icon-star">
-												5.0
-											</div>
-											<div class="slide-products-mainpage__title">
-												Safety Helmet - Yellow
-											</div>
-											<div class="slide-products-mainpage__price">
-												$18.60 - $58.50
-											</div>
-										</div>
-									</a>
-									<a href="#" class="products-mainpage__slide slide-products-mainpage swiper-slide">
-										<div class="slide-products-mainpage__body">
-											<div class="slide-products-mainpage__image-ibg">
-												<picture><source srcset="img/products-mainpage/03.webp" type="image/webp"><img src="img/products-mainpage/03.png" alt="Leather Gloves" /></picture>
-											</div>
-											<div class="slide-products-mainpage__rating _icon-star">
-												4.5
-											</div>
-											<div class="slide-products-mainpage__title">
-												Leather Gloves
-											</div>
-											<div class="slide-products-mainpage__price">
-												$18.60 - $58.50
-											</div>
-										</div>
-									</a>
-									<a href="#" class="products-mainpage__slide slide-products-mainpage swiper-slide">
-										<div class="slide-products-mainpage__body">
-											<div class="slide-products-mainpage__image-ibg">
-												<picture><source srcset="img/products-mainpage/02.webp" type="image/webp"><img src="img/products-mainpage/02.png" alt="Safety Helmet – Yellow" /></picture>
-											</div>
-											<div class="slide-products-mainpage__rating _icon-star">
-												5.0
-											</div>
-											<div class="slide-products-mainpage__title">
-												Safety Helmet - Yellow
-											</div>
-											<div class="slide-products-mainpage__price">
-												$18.60 - $58.50
-											</div>
-										</div>
-									</a>
-								</div>
-								<div class="products-mainpage__pagination swiper-pagination"></div>
-							</div>
+						<div data-da=".projects-mainpage__slider,767.98,last" class="projects-mainpage__slider-control slider-control">
+							<button type="button" class="slider-control__arrow slider-control__arrow_prev _icon-sl-arrow"></button>
+							<button type="button" class="slider-control__arrow slider-control__arrow_next _icon-sl-arrow"></button>
 						</div>
 					</div>
-				</section>
-				<section class="mainpage__projects projects-mainpage">
-					<div class="projects-mainpage__container">
-						<div class="projects-mainpage__head head">
-							<div class="head__content">
-								<div class="head__icon">
-									<img src="img/icons/02.svg" alt="" aria-hidden="true" />
-								</div>
-								<p class="head__subheading">SOLUTIONS FOR EACH PROJECT</p>
-								<h2 class="head__title h2">Project Completed</h2>
-							</div>
-							<div data-da=".projects-mainpage__slider,767.98,last" class="projects-mainpage__slider-control slider-control">
-								<button type="button" class="slider-control__arrow slider-control__arrow_prev _icon-sl-arrow"></button>
-								<button type="button" class="slider-control__arrow slider-control__arrow_next _icon-sl-arrow"></button>
-							</div>
-						</div>
-						<div class="projects-mainpage__body">
-							<div class="projects-mainpage__slider swipe">
-								<div class="projects-mainpage__wrapper swiper-wrapper">
-									<div class="projects-mainpage__slide slide-projects-mainpage swiper-slide">
-										<div class="slide-projects-mainpage__content">
-											<a href="#" class="slide-projects-mainpage__title">
-												SickKids Project Horizon - Patient Support Centre
-											</a>
-											<p class="slide-projects-mainpage__text">
-												A modern, technology-enabled, wellness-focused
-												workspace and sustainable office tower, SickKids
-												Patient Support Centre.
-											</p>
-											<div class="slide-projects-mainpage__info info-slide-projects-mainpage">
-												<p class="info-slide-projects-mainpage__text">
-													LOCATION: <span>United States</span>
-												</p>
-												<p class="info-slide-projects-mainpage__text">
-													DATE: <span>1990-2000</span>
-												</p>
-											</div>
-										</div>
-										<a href="#" class="slide-projects-mainpage__image-link">
-											<div class="slide-projects-mainpage__image-ibg">
-												<picture><source data-srcset="img/projects-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/projects-mainpage/01.jpg" alt="SickKids Project Horizon - Patient Support Centre" /></picture>
-											</div>
+					<div class="projects-mainpage__body">
+						<div class="projects-mainpage__slider swipe">
+							<div class="projects-mainpage__wrapper swiper-wrapper">
+								<div class="projects-mainpage__slide slide-projects-mainpage swiper-slide">
+									<div class="slide-projects-mainpage__content">
+										<a href="#" class="slide-projects-mainpage__title">
+											SickKids Project Horizon - Patient Support Centre
 										</a>
-									</div>
-									<div class="projects-mainpage__slide slide-projects-mainpage swiper-slide">
-										<div class="slide-projects-mainpage__content">
-											<a href="#" class="slide-projects-mainpage__title">
-												SickKids Project Horizon
-											</a>
-											<p class="slide-projects-mainpage__text">
-												A modern, technology-enabled, wellness-focused
-												workspace and sustainable office tower, SickKids
-												Patient Support Centre.
-											</p>
-											<div class="slide-projects-mainpage__info info-slide-projects-mainpage">
-												<p class="info-slide-projects-mainpage__text">
-													LOCATION: <span>United States</span>
-												</p>
-												<p class="info-slide-projects-mainpage__text">
-													DATE: <span>1990-2000</span>
-												</p>
-											</div>
-										</div>
-										<a href="#" class="slide-projects-mainpage__image-link">
-											<div class="slide-projects-mainpage__image-ibg">
-												<picture><source data-srcset="img/projects-mainpage/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/projects-mainpage/02.jpg" alt="SickKids Project Horizon" /></picture>
-											</div>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section class="mainpage__plans plans-mainpage">
-					<div class="plans-mainpage__container">
-						<div class="plans-mainpage__head head">
-							<div class="head__icon">
-								<img src="img/icons/02.svg" alt="" aria-hidden="true" />
-							</div>
-							<p class="head__subheading">SELECT A PLAN THAT SUITS</p>
-							<h2 class="head__title h2">Flexible Pricing Plans</h2>
-						</div>
-						<div class="plans-mainpage__body">
-							<div class="plans-mainpage__row">
-								<div class="plans-mainpage__item item-plans-mainpage">
-									<div class="item-plans-mainpage__body">
-										<span class="item-plans-mainpage__label">Plan.it</span>
-										<span class="item-plans-mainpage__price">$20</span>
-										<p class="item-plans-mainpage__text text">
-											Manage your own project documents and collaborate.
+										<p class="slide-projects-mainpage__text">
+											A modern, technology-enabled, wellness-focused workspace
+											and sustainable office tower, SickKids Patient Support
+											Centre.
 										</p>
-										<a href="#" class="item-plans-mainpage__btn btn btn_white"><span class="btn__text">Select Now</span>
-										</a>
+										<div class="slide-projects-mainpage__info info-slide-projects-mainpage">
+											<p class="info-slide-projects-mainpage__text">
+												LOCATION: <span>United States</span>
+											</p>
+											<p class="info-slide-projects-mainpage__text">
+												DATE: <span>1990-2000</span>
+											</p>
+										</div>
 									</div>
+									<a href="#" class="slide-projects-mainpage__image-link">
+										<div class="slide-projects-mainpage__image-ibg">
+											<picture><source data-srcset="img/projects-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/projects-mainpage/01.jpg" alt="SickKids Project Horizon - Patient Support Centre" /></picture>
+										</div>
+									</a>
 								</div>
-								<div class="plans-mainpage__item item-plans-mainpage item-plans-mainpage_black">
-									<div class="item-plans-mainpage__body">
-										<span class="item-plans-mainpage__label">Build.it</span>
-										<span class="item-plans-mainpage__price">$60</span>
-										<p class="item-plans-mainpage__text text">
-											Manage your own project documents and collaborate.
-											Manage your own project documents and collaborate.
+								<div class="projects-mainpage__slide slide-projects-mainpage swiper-slide">
+									<div class="slide-projects-mainpage__content">
+										<a href="#" class="slide-projects-mainpage__title">
+											SickKids Project Horizon
+										</a>
+										<p class="slide-projects-mainpage__text">
+											A modern, technology-enabled, wellness-focused workspace
+											and sustainable office tower, SickKids Patient Support
+											Centre.
 										</p>
+										<div class="slide-projects-mainpage__info info-slide-projects-mainpage">
+											<p class="info-slide-projects-mainpage__text">
+												LOCATION: <span>United States</span>
+											</p>
+											<p class="info-slide-projects-mainpage__text">
+												DATE: <span>1990-2000</span>
+											</p>
+										</div>
+									</div>
+									<a href="#" class="slide-projects-mainpage__image-link">
+										<div class="slide-projects-mainpage__image-ibg">
+											<picture><source data-srcset="img/projects-mainpage/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/projects-mainpage/02.jpg" alt="SickKids Project Horizon" /></picture>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="mainpage__plans plans-mainpage">
+				<div class="plans-mainpage__container">
+					<div class="plans-mainpage__head head">
+						<div class="head__icon">
+							<img data-src="img/icons/02.svg" alt="" aria-hidden="true" />
+						</div>
+						<span class="head__subheading">SELECT A PLAN THAT SUITS</span>
+						<h2 class="head__title h2">Flexible Pricing Plans</h2>
+					</div>
+					<div class="plans-mainpage__body">
+						<div class="plans-mainpage__row">
+							<div class="plans-mainpage__item item-plans-mainpage">
+								<div class="item-plans-mainpage__body">
+									<h3 class="item-plans-mainpage__label">Plan.it</h3>
+									<span class="item-plans-mainpage__price">$20</span>
+									<p class="item-plans-mainpage__text text">
+										Manage your own project documents and collaborate.
+									</p>
+									<a href="#" class="item-plans-mainpage__btn btn btn_white"><span class="btn__text">Select Now</span>
+									</a>
+								</div>
+							</div>
+							<div class="plans-mainpage__item item-plans-mainpage item-plans-mainpage_black">
+								<div class="item-plans-mainpage__body">
+									<h3 class="item-plans-mainpage__label">Build.it</h3>
+									<span class="item-plans-mainpage__price">$60</span>
+									<p class="item-plans-mainpage__text text">
+										Manage your own project documents and collaborate. Manage
+										your own project documents and collaborate.
+									</p>
 
-										<a href="#" class="item-plans-mainpage__btn btn"><span class="btn__text">Select Now</span>
-										</a>
-									</div>
+									<a href="#" class="item-plans-mainpage__btn btn"><span class="btn__text">Select Now</span>
+									</a>
 								</div>
-								<div class="plans-mainpage__item item-plans-mainpage">
-									<div class="item-plans-mainpage__body">
-										<span class="item-plans-mainpage__label">Build.it PRO</span>
-										<span class="item-plans-mainpage__price">$90</span>
-										<p class="item-plans-mainpage__text text">
-											Manage your own project documents and collaborate.
-										</p>
-										<a href="#" class="item-plans-mainpage__btn btn btn_white"><span class="btn__text">Select Now</span>
-										</a>
-									</div>
+							</div>
+							<div class="plans-mainpage__item item-plans-mainpage">
+								<div class="item-plans-mainpage__body">
+									<h3 class="item-plans-mainpage__label">Build.it PRO</h3>
+									<span class="item-plans-mainpage__price">$90</span>
+									<p class="item-plans-mainpage__text text">
+										Manage your own project documents and collaborate.
+									</p>
+									<a href="#" class="item-plans-mainpage__btn btn btn_white"><span class="btn__text">Select Now</span>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
-				</section>
-				<section class="mainpage__locality locality-mainpage">
-					<div class="locality-mainpage__container">
-						<div class="locality-mainpage__row locality-mainpage__row_head">
-							<div class="locality-mainpage__head head">
-								<p class="head__subheading">OUR LOCATIONS</p>
-								<h2 class="head__title h2">Where we work</h2>
-							</div>
-							<p class="locality-mainpage__text text text_white">
-								No matter where or what you want to build, we mobilize the
-								right resources and experts to drive value and realize your
-								project goals. From coast to coast in communities across the
-								country, if you're ready, we're ready.
-							</p>
+				</div>
+			</section>
+			<section class="mainpage__locality locality-mainpage">
+				<div class="locality-mainpage__container">
+					<div class="locality-mainpage__row locality-mainpage__row_head">
+						<div class="locality-mainpage__head head">
+							<span class="head__subheading">OUR LOCATIONS</span>
+							<h2 class="head__title h2">Where we work</h2>
 						</div>
-						<div class="locality-mainpage__row locality-mainpage__row_content">
-							<div class="locality-mainpage__map map-locality-mainpage">
-								<div class="map-locality-mainpage__wrap">
-									<div class="map-locality-mainpage__regions">
-										<div id="region_01" class="map-locality-mainpage__item item-map-locality-mainpage">
-											<button type="button" class="item-map-locality-mainpage__dot"></button>
-											<a href="#" class="item-map-locality-mainpage__body">
-												<div class="item-map-locality-mainpage__image-ibg">
-													<picture><source data-srcset="img/locality-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/locality-mainpage/01.jpg" alt="" /></picture>
-												</div>
-												<p class="item-map-locality-mainpage__text">
-													9915 56th Ave. NW Edmonton, AB T6E 5L7
-												</p>
-											</a>
-										</div>
-										<div id="region_02" class="map-locality-mainpage__item item-map-locality-mainpage">
-											<button type="button" class="item-map-locality-mainpage__dot"></button>
-											<a href="#" class="item-map-locality-mainpage__body">
-												<div class="item-map-locality-mainpage__image-ibg">
-													<picture><source data-srcset="img/locality-mainpage/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/locality-mainpage/02.jpg" alt="" /></picture>
-												</div>
-												<p class="item-map-locality-mainpage__text">
-													9915 56th Ave. NW Edmonton, AB T6E 5L7
-												</p>
-											</a>
-										</div>
+						<p class="locality-mainpage__text text text_white">
+							No matter where or what you want to build, we mobilize the right
+							resources and experts to drive value and realize your project
+							goals. From coast to coast in communities across the country, if
+							you're ready, we're ready.
+						</p>
+					</div>
+					<div class="locality-mainpage__row locality-mainpage__row_content">
+						<div class="locality-mainpage__map map-locality-mainpage">
+							<div class="map-locality-mainpage__wrap">
+								<div class="map-locality-mainpage__regions">
+									<div id="region_01" class="map-locality-mainpage__item item-map-locality-mainpage">
+										<button type="button" class="item-map-locality-mainpage__dot"></button>
+										<a href="#" class="item-map-locality-mainpage__body">
+											<div class="item-map-locality-mainpage__image-ibg">
+												<picture><source data-srcset="img/locality-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/locality-mainpage/01.jpg" alt="" /></picture>
+											</div>
+											<p class="item-map-locality-mainpage__text">
+												9915 56th Ave. NW Edmonton, AB T6E 5L7
+											</p>
+										</a>
 									</div>
-									<div class="map-locality-mainpage__image">
-										<picture><source data-srcset="img/locality-mainpage/map.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/locality-mainpage/map.png" alt="" /></picture>
+									<div id="region_02" class="map-locality-mainpage__item item-map-locality-mainpage">
+										<button type="button" class="item-map-locality-mainpage__dot"></button>
+										<a href="#" class="item-map-locality-mainpage__body">
+											<div class="item-map-locality-mainpage__image-ibg">
+												<picture><source data-srcset="img/locality-mainpage/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/locality-mainpage/02.jpg" alt="" /></picture>
+											</div>
+											<p class="item-map-locality-mainpage__text">
+												9915 56th Ave. NW Edmonton, AB T6E 5L7
+											</p>
+										</a>
 									</div>
 								</div>
+								<div class="map-locality-mainpage__image">
+									<picture><source data-srcset="img/locality-mainpage/map.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/locality-mainpage/map.png" alt="" aria-hidden="true" /></picture>
+								</div>
 							</div>
-							<div class="locality-mainpage__facts facts-locality-mainpage">
-								<div class="facts-locality-mainpage__row">
-									<div class="facts-locality-mainpage__item item-facts-locality-mainpage">
-										<p class="item-facts-locality-mainpage__number">100%</p>
-										<p class="item-facts-locality-mainpage__text">
-											Employee Owned
-										</p>
-									</div>
-									<div class="facts-locality-mainpage__item item-facts-locality-mainpage">
-										<p class="item-facts-locality-mainpage__number">700+</p>
-										<p class="item-facts-locality-mainpage__text">
-											Active Projects
-										</p>
-									</div>
+						</div>
+						<div class="locality-mainpage__facts facts-locality-mainpage">
+							<div class="facts-locality-mainpage__row">
+								<div class="facts-locality-mainpage__item item-facts-locality-mainpage">
+									<p class="item-facts-locality-mainpage__number">100%</p>
+									<p class="item-facts-locality-mainpage__text">
+										Employee Owned
+									</p>
+								</div>
+								<div class="facts-locality-mainpage__item item-facts-locality-mainpage">
+									<p class="item-facts-locality-mainpage__number">700+</p>
+									<p class="item-facts-locality-mainpage__text">
+										Active Projects
+									</p>
 								</div>
 							</div>
 						</div>
 					</div>
-				</section>
-				<section class="mainpage__connect connect-mainpage">
-					<div class="connect-mainpage__container">
-						<div class="connect-mainpage__head head">
-							<div class="head__icon">
-								<img src="img/icons/02.svg" alt="" aria-hidden="true" />
-							</div>
-							<p class="head__subheading">GET IN TOUCH</p>
-							<h2 class="head__title h2">
-								Quality & Passion With Contact Form
-							</h2>
+				</div>
+			</section>
+			<section class="mainpage__connect connect-mainpage">
+				<div class="connect-mainpage__container">
+					<div class="connect-mainpage__head head">
+						<div class="head__icon">
+							<img data-src="img/icons/02.svg" alt="" aria-hidden="true" />
 						</div>
-						<div class="connect-mainpage__content">
-							<div data-one-spoiler data-spoilers class="connect-mainpage__spoilers spoilers">
-								<div class="spoilers__item">
-									<button type="button" data-spoiler class="spoilers__title">
-										<span class="spoilers__title-wrap">
-											<span>Occupational Health Risk Management?</span>
-										</span>
-										<span class="spoilers__rectangle"></span>
-									</button>
-									<div class="spoilers__body">
-										<p class="spoilers__text">
-											Commercial management in construction ensures the
-											planning, execution, and coordination of a construction
-											project from the start to finish. These are often for
-											specific projects such as building or renovation
-											projects that are sold or leased.
-										</p>
-									</div>
-								</div>
-								<div class="spoilers__item">
-									<button type="button" data-spoiler class="spoilers__title _spoiler-active">
-										<span class="spoilers__title-wrap"><span>What is commercial management in construction?</span></span>
-										<span class="spoilers__rectangle"></span>
-									</button>
-									<div class="spoilers__body">
-										<p class="spoilers__text">
-											Commercial management in construction ensures the
-											planning, execution, and coordination of a construction
-											project from the start to finish. These are often for
-											specific projects such as building or renovation
-											projects that are sold or leased.
-										</p>
-									</div>
-								</div>
-								<div class="spoilers__item">
-									<button type="button" data-spoiler class="spoilers__title">
-										<span class="spoilers__title-wrap"><span>Start a construction management?</span></span>
-										<span class="spoilers__rectangle"></span>
-									</button>
-									<div class="spoilers__body">
-										<span class="spoilers__text">
-											Commercial management in construction ensures the
-											planning, execution, and coordination of a construction
-											project from the start to finish. These are often for
-											specific projects such as building or renovation
-											projects that are sold or leased.
-										</span>
-									</div>
-								</div>
-								<div class="spoilers__item">
-									<button type="button" data-spoiler class="spoilers__title">
-										<span class="spoilers__title-wrap"><span>Measure quality in construction projects?</span></span>
-										<span class="spoilers__rectangle"></span>
-									</button>
-									<div class="spoilers__body">
-										<span class="spoilers__text">
-											Commercial management in construction ensures the
-											planning, execution, and coordination of a construction
-											project from the start to finish. These are often for
-											specific projects such as building or renovation
-											projects that are sold or leased.
-										</span>
-									</div>
-								</div>
-								<div class="spoilers__item">
-									<button type="button" data-spoiler class="spoilers__title">
-										<span class="spoilers__title-wrap"><span>Prepare a construction project schedule?</span></span>
-										<span class="spoilers__rectangle"></span>
-									</button>
-									<div class="spoilers__body">
-										<span class="spoilers__text">
-											Commercial management in construction ensures the
-											planning, execution, and coordination of a construction
-											project from the start to finish. These are often for
-											specific projects such as building or renovation
-											projects that are sold or leased.
-										</span>
-									</div>
-								</div>
-							</div>
-							<form data-dev data-popup-message="#formMessage" action="#" class="connect-mainpage__form form-connect-mainpage">
-								<h2 class="form-connect-mainpage__title h2">Contact Us</h2>
-								<div class="form-connect-mainpage__fields">
-									<div class="form-connect-mainpage__input-wrap">
-										<input data-required data-validate autocomplete="off" type="text" name="form[]" data-value="" data-error="this field is required" placeholder="Complete Name" class="input" />
-									</div>
-									<div class="form-connect-mainpage__input-wrap">
-										<input data-required="email" data-validate autocomplete="off" type="text" name="form[]" data-error data-value="" placeholder="Email Address" class="input" />
-									</div>
-									<div class="form-connect-mainpage__input-wrap">
-										<input data-required data-validate autocomplete="off" type="text" name="form[]" data-value="" data-error="this field is required" placeholder="Subject" class="input" />
-									</div>
-									<div class="form-connect-mainpage__input-wrap">
-										<textarea data-required data-validate name="form[]" data-error="this field is required" placeholder="Question / Message?" class="input"></textarea>
-									</div>
-								</div>
-								<button type="submit" class="form-connect-mainpage__btn btn">
-									<span class="btn__text">Contact Us</span>
+						<span class="head__subheading">GET IN TOUCH</span>
+						<h2 class="head__title h2">
+							Quality & Passion With Contact Form
+						</h2>
+					</div>
+					<div class="connect-mainpage__content">
+						<div data-one-spoiler data-spoilers class="connect-mainpage__spoilers spoilers">
+							<div class="spoilers__item">
+								<button type="button" data-spoiler class="spoilers__title">
+									<span class="spoilers__title-wrap">
+										<span>Occupational Health Risk Management?</span>
+									</span>
+									<span class="spoilers__rectangle"></span>
 								</button>
-							</form>
-						</div>
-					</div>
-				</section>
-				<section class="mainpage__articles articles-mainpage">
-					<div class="articles-mainpage__container">
-						<div class="articles-mainpage__info">
-							<div class="articles-mainpage__head head">
-								<div class="head__icon">
-									<img src="img/icons/02.svg" alt="" aria-hidden="true" />
+								<div class="spoilers__body">
+									<p class="spoilers__text">
+										Commercial management in construction ensures the
+										planning, execution, and coordination of a construction
+										project from the start to finish. These are often for
+										specific projects such as building or renovation projects
+										that are sold or leased.
+									</p>
 								</div>
-								<p class="head__subheading">NEWS & ARTICLES</p>
-								<h2 class="head__title h2">Latest News</h2>
 							</div>
-							<p class="articles-mainpage__text text">
-								Our people are dedicated to finding solutions to every
-								challenge. That spirit makes for some great stories.
-							</p>
-							<a href="#" class="articles-mainpage__btn btn btn_white"><span class="btn__text">View All News</span>
+							<div class="spoilers__item">
+								<button type="button" data-spoiler class="spoilers__title _spoiler-active">
+									<span class="spoilers__title-wrap"><span>What is commercial management in construction?</span></span>
+									<span class="spoilers__rectangle"></span>
+								</button>
+								<div class="spoilers__body">
+									<p class="spoilers__text">
+										Commercial management in construction ensures the
+										planning, execution, and coordination of a construction
+										project from the start to finish. These are often for
+										specific projects such as building or renovation projects
+										that are sold or leased.
+									</p>
+								</div>
+							</div>
+							<div class="spoilers__item">
+								<button type="button" data-spoiler class="spoilers__title">
+									<span class="spoilers__title-wrap"><span>Start a construction management?</span></span>
+									<span class="spoilers__rectangle"></span>
+								</button>
+								<div class="spoilers__body">
+									<span class="spoilers__text">
+										Commercial management in construction ensures the
+										planning, execution, and coordination of a construction
+										project from the start to finish. These are often for
+										specific projects such as building or renovation projects
+										that are sold or leased.
+									</span>
+								</div>
+							</div>
+							<div class="spoilers__item">
+								<button type="button" data-spoiler class="spoilers__title">
+									<span class="spoilers__title-wrap"><span>Measure quality in construction projects?</span></span>
+									<span class="spoilers__rectangle"></span>
+								</button>
+								<div class="spoilers__body">
+									<span class="spoilers__text">
+										Commercial management in construction ensures the
+										planning, execution, and coordination of a construction
+										project from the start to finish. These are often for
+										specific projects such as building or renovation projects
+										that are sold or leased.
+									</span>
+								</div>
+							</div>
+							<div class="spoilers__item">
+								<button type="button" data-spoiler class="spoilers__title">
+									<span class="spoilers__title-wrap"><span>Prepare a construction project schedule?</span></span>
+									<span class="spoilers__rectangle"></span>
+								</button>
+								<div class="spoilers__body">
+									<span class="spoilers__text">
+										Commercial management in construction ensures the
+										planning, execution, and coordination of a construction
+										project from the start to finish. These are often for
+										specific projects such as building or renovation projects
+										that are sold or leased.
+									</span>
+								</div>
+							</div>
+						</div>
+						<form data-dev data-popup-message="#formMessage" action="#" class="connect-mainpage__form form-connect-mainpage">
+							<h2 class="form-connect-mainpage__title h2">Contact Us</h2>
+							<div class="form-connect-mainpage__fields">
+								<div class="form-connect-mainpage__input-wrap">
+									<input data-required data-validate autocomplete="off" type="text" name="form[]" data-value="" data-error="this field is required" placeholder="Complete Name" class="input" />
+								</div>
+								<div class="form-connect-mainpage__input-wrap">
+									<input data-required="email" data-validate autocomplete="off" type="text" name="form[]" data-error data-value="" placeholder="Email Address" class="input" />
+								</div>
+								<div class="form-connect-mainpage__input-wrap">
+									<input data-required data-validate autocomplete="off" type="text" name="form[]" data-value="" data-error="this field is required" placeholder="Subject" class="input" />
+								</div>
+								<div class="form-connect-mainpage__input-wrap">
+									<textarea data-required data-validate name="form[]" data-error="this field is required" placeholder="Question / Message?" class="input"></textarea>
+								</div>
+							</div>
+							<button type="submit" class="form-connect-mainpage__btn btn">
+								<span class="btn__text">Contact Us</span>
+							</button>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="mainpage__articles articles-mainpage">
+				<div class="articles-mainpage__container">
+					<div class="articles-mainpage__info">
+						<div class="articles-mainpage__head head">
+							<div class="head__icon">
+								<img data-src="img/icons/02.svg" alt="" aria-hidden="true" />
+							</div>
+							<span class="head__subheading">NEWS & ARTICLES</span>
+							<h2 class="head__title h2">Latest News</h2>
+						</div>
+						<p class="articles-mainpage__text text">
+							Our people are dedicated to finding solutions to every
+							challenge. That spirit makes for some great stories.
+						</p>
+						<a href="#" class="articles-mainpage__btn btn btn_white"><span class="btn__text">View All News</span>
+						</a>
+					</div>
+					<div class="articles-mainpage__grid">
+						<div class="articles-mainpage__grid-column">
+							<a href="#" class="articles-mainpage__item item-articles-mainpage">
+								<div class="item-articles-mainpage__body">
+									<div class="item-articles-mainpage__image-ibg">
+										<picture><source data-srcset="img/articles-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/articles-mainpage/01.jpg" alt="" /></picture>
+									</div>
+									<time datetime="2022-01-09" class="item-articles-mainpage__date">January 9, 2022</time>
+									<h3 class="item-articles-mainpage__title">
+										The Scrim Project: San Francisco Artist Feature
+									</h3>
+									<p class="item-articles-mainpage__text">
+										Through The Scrim Project, is turning over the wrap on our
+										construction fence to,…
+									</p>
+								</div>
+							</a>
+							<a href="#" class="articles-mainpage__item item-articles-mainpage item-articles-mainpage_small">
+								<div class="item-articles-mainpage__body">
+									<div class="item-articles-mainpage__image-ibg">
+										<picture><source data-srcset="img/articles-mainpage/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/articles-mainpage/02.jpg" alt="" /></picture>
+									</div>
+									<time datetime="2022-01-09" class="item-articles-mainpage__date">January 9, 2022</time>
+									<h3 class="item-articles-mainpage__title">
+										The Scrim Project: San Francisco Artist Feature
+									</h3>
+								</div>
 							</a>
 						</div>
-						<div class="articles-mainpage__grid">
-							<div class="articles-mainpage__grid-column">
-								<a href="#" class="articles-mainpage__item item-articles-mainpage">
-									<div class="item-articles-mainpage__body">
-										<div class="item-articles-mainpage__image-ibg">
-											<picture><source data-srcset="img/articles-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/articles-mainpage/01.jpg" alt="" /></picture>
-										</div>
-										<p class="item-articles-mainpage__date">
-											January 9, 2022
-										</p>
-										<h3 class="item-articles-mainpage__title">
-											The Scrim Project: San Francisco Artist Feature
-										</h3>
-										<p class="item-articles-mainpage__text">
-											Through The Scrim Project, is turning over the wrap on
-											our construction fence to,…
-										</p>
+						<div class="articles-mainpage__grid-column">
+							<a href="#" class="articles-mainpage__item item-articles-mainpage item-articles-mainpage_small">
+								<div class="item-articles-mainpage__body">
+									<div class="item-articles-mainpage__image-ibg">
+										<picture><source data-srcset="img/articles-mainpage/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/articles-mainpage/03.jpg" alt="" /></picture>
 									</div>
-								</a>
-								<a href="#" class="articles-mainpage__item item-articles-mainpage item-articles-mainpage_small">
-									<div class="item-articles-mainpage__body">
-										<div class="item-articles-mainpage__image-ibg">
-											<picture><source data-srcset="img/articles-mainpage/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/articles-mainpage/02.jpg" alt="" /></picture>
-										</div>
-										<p class="item-articles-mainpage__date">
-											January 9, 2022
-										</p>
-										<h3 class="item-articles-mainpage__title">
-											The Scrim Project: San Francisco Artist Feature
-										</h3>
+									<time datetime="2022-01-09" class="item-articles-mainpage__date">January 9, 2022</time>
+									<h3 class="item-articles-mainpage__title">
+										The Scrim Project: San Francisco Artist Feature
+									</h3>
+								</div>
+							</a>
+							<a href="#" class="articles-mainpage__item item-articles-mainpage">
+								<div class="item-articles-mainpage__body">
+									<div class="item-articles-mainpage__image-ibg">
+										<picture><source data-srcset="img/articles-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/articles-mainpage/01.jpg" alt="" /></picture>
 									</div>
-								</a>
-							</div>
-							<div class="articles-mainpage__grid-column">
-								<a href="#" class="articles-mainpage__item item-articles-mainpage item-articles-mainpage_small">
-									<div class="item-articles-mainpage__body">
-										<div class="item-articles-mainpage__image-ibg">
-											<picture><source data-srcset="img/articles-mainpage/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/articles-mainpage/03.jpg" alt="" /></picture>
-										</div>
-										<p class="item-articles-mainpage__date">
-											January 9, 2022
-										</p>
-										<h3 class="item-articles-mainpage__title">
-											The Scrim Project: San Francisco Artist Feature
-										</h3>
-									</div>
-								</a>
-								<a href="#" class="articles-mainpage__item item-articles-mainpage">
-									<div class="item-articles-mainpage__body">
-										<div class="item-articles-mainpage__image-ibg">
-											<picture><source data-srcset="img/articles-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/articles-mainpage/01.jpg" alt="" /></picture>
-										</div>
-										<p class="item-articles-mainpage__date">
-											January 9, 2022
-										</p>
-										<h3 class="item-articles-mainpage__title">
-											The Scrim Project: San Francisco Artist Feature
-										</h3>
-										<p class="item-articles-mainpage__text">
-											Through The Scrim Project, is turning over the wrap on
-											our construction fence to,…
-										</p>
-									</div>
-								</a>
-							</div>
+									<time datetime="2022-01-09" class="item-articles-mainpage__date">January 9, 2022</time>
+									<h3 class="item-articles-mainpage__title">
+										The Scrim Project: San Francisco Artist Feature
+									</h3>
+									<p class="item-articles-mainpage__text">
+										Through The Scrim Project, is turning over the wrap on our
+										construction fence to,…
+									</p>
+								</div>
+							</a>
 						</div>
 					</div>
-				</section>
-			</div>
+				</div>
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__head head-footer">
 				<div class="head-footer__container">
-					<a href="#" class="head-footer__logo"><img src="img/logo.svg" alt="" /></a>
+					<a href="#" class="head-footer__logo"><img data-src="img/logo.svg" alt="" aria-hidden="true" /></a>
 					<p class="head-footer__text text">
 						Sales representative
 						<a href="tel:1251344066">+1 (251) 344 0 66</a> free call!
@@ -688,14 +680,14 @@
 				<div class="content-footer__container">
 					<div class="content-footer__row">
 						<div class="content-footer__item content-footer__item_info item-content-footer">
-							<span class="item-content-footer__heading">Information</span>
+							<h3 class="item-content-footer__heading">Information</h3>
 							<p class="item-content-footer__text text">
 								We successfully cope with tasks of varying complexity, provide
 								long-term guarantees and regularly master new technologies.
 							</p>
 						</div>
 						<div class="content-footer__item content-footer__item_contact item-content-footer">
-							<span class="item-content-footer__heading">Contact</span>
+							<h3 class="item-content-footer__heading">Contact</h3>
 							<ul class="item-content-footer__list list-item-content-footer">
 								<li class="list-item-content-footer__item">
 									<a href="#" class="list-item-content-footer__link text _icon-location"><span>901 N Pitt Str., Suite 170, VA 22314, USA</span></a>
@@ -709,7 +701,7 @@
 							</ul>
 						</div>
 						<div class="content-footer__item content-footer__item_newsletter item-content-footer">
-							<span class="item-content-footer__heading">Newsletter</span>
+							<h3 class="item-content-footer__heading">Newsletter</h3>
 							<p class="item-content-footer__text text">
 								Signup for our weekly newsletter to get the latest news and updates.
 							</p>
@@ -763,7 +755,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20230205163945"></script>
+	<script src="js/app.min.js?_v=20230714132934"></script>
 </body>
 
 </html>
